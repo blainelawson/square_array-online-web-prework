@@ -1,8 +1,7 @@
 def square_array(array)
   new_array = []
   array.each do |element|
-    element -= 1
-    new_array[element] = element / element
+    new_array[element +1] = element / element
   end
 end
 
