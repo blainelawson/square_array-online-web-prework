@@ -4,6 +4,5 @@ def square_array(array)
     square = element ** element
     new_array.push(square)
   end
-  new_array
 end
 
