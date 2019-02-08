@@ -1,7 +1,7 @@
 def square_array(array)
   new_array = []
   array.each do |element|
-    puts element
+    new_array[element].insert = element / element
   end
 end
 
